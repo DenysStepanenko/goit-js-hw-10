@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOIT-JS-HW-10</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-    <load src="./partials/footer.html" />
+<body>
+  <div class="container">
+    <h1>GOIT-JS-HW-10</h1>
+    <div class="links">
+      <a href="./1-timer.html">Task 1: Timer</a>
+      <a href="./2-snackbar.html">Task 2: Promise Generator</a>
+    </div>
+  </div>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <style>
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: center;
+    }
+
+    a {
+      font-size: 18px;
+      color: #4CAF50;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #45a049;
+    }
+  </style>
+</body>
+
 </html>

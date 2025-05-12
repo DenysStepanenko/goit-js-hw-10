@@ -1,0 +1,52 @@
+#datetime-picker {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000; /* Черная рамка, как на скриншоте */
+  border-radius: 5px;
+  width: 150px;
+}
+
+button[data-start] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #d3d3d3; /* Серый фон кнопки, как на скриншоте */
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[data-start]:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  font-family: monospace;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
