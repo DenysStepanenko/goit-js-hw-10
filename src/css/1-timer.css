@@ -1,7 +1,7 @@
 #datetime-picker {
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #000; /* Черная рамка, как на скриншоте */
+  border: 1px solid #000;
   border-radius: 5px;
   width: 150px;
 }
@@ -9,7 +9,7 @@
 button[data-start] {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #d3d3d3; /* Серый фон кнопки, как на скриншоте */
+  background-color: #d3d3d3;
   color: #000;
   border: none;
   border-radius: 5px;
